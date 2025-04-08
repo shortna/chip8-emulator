@@ -1,6 +1,6 @@
 # CHIP-8 emulator
-Instructions from https://chip8.gulrak.net/#quirk5 for the classic CHIP-8
-For soud use terminal which supports '/a'
+Instructions from https://chip8.gulrak.net/#quirk5 for the classic CHIP-8.
+For sound use terminal which supports '\a'.
 
 ## BUILD
 
