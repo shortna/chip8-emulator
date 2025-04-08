@@ -1,0 +1,122 @@
+[
+  {
+    "arguments": [
+      "/nix/store/q87df3dw0x7r1k9gagir9a5sdi3gmw4a-clang-wrapper-19.1.7/bin/clang",
+      "-std=c23",
+      "-O1",
+      "-I",
+      "include",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wno-gnu",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600",
+      "-I/nix/store/k6p7j4dfvzhdb844vgqjsizbvlmprkzq-ncurses-6.5-dev/include",
+      "-c",
+      "-o",
+      "build/instructions.o",
+      "src/instructions.c"
+    ],
+    "directory": "/home/box/code/c/emulator",
+    "file": "/home/box/code/c/emulator/src/instructions.c",
+    "output": "/home/box/code/c/emulator/build/instructions.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/q87df3dw0x7r1k9gagir9a5sdi3gmw4a-clang-wrapper-19.1.7/bin/clang",
+      "-std=c23",
+      "-O1",
+      "-I",
+      "include",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wno-gnu",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600",
+      "-I/nix/store/k6p7j4dfvzhdb844vgqjsizbvlmprkzq-ncurses-6.5-dev/include",
+      "-c",
+      "-o",
+      "build/log.o",
+      "src/log.c"
+    ],
+    "directory": "/home/box/code/c/emulator",
+    "file": "/home/box/code/c/emulator/src/log.c",
+    "output": "/home/box/code/c/emulator/build/log.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/q87df3dw0x7r1k9gagir9a5sdi3gmw4a-clang-wrapper-19.1.7/bin/clang",
+      "-std=c23",
+      "-O1",
+      "-I",
+      "include",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wno-gnu",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600",
+      "-I/nix/store/k6p7j4dfvzhdb844vgqjsizbvlmprkzq-ncurses-6.5-dev/include",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/box/code/c/emulator",
+    "file": "/home/box/code/c/emulator/src/main.c",
+    "output": "/home/box/code/c/emulator/build/main.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/q87df3dw0x7r1k9gagir9a5sdi3gmw4a-clang-wrapper-19.1.7/bin/clang",
+      "-std=c23",
+      "-O1",
+      "-I",
+      "include",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wno-gnu",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600",
+      "-I/nix/store/k6p7j4dfvzhdb844vgqjsizbvlmprkzq-ncurses-6.5-dev/include",
+      "-c",
+      "-o",
+      "build/periph.o",
+      "src/periph.c"
+    ],
+    "directory": "/home/box/code/c/emulator",
+    "file": "/home/box/code/c/emulator/src/periph.c",
+    "output": "/home/box/code/c/emulator/build/periph.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/q87df3dw0x7r1k9gagir9a5sdi3gmw4a-clang-wrapper-19.1.7/bin/clang",
+      "-std=c23",
+      "-O1",
+      "-I",
+      "include",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wno-gnu",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600",
+      "-I/nix/store/k6p7j4dfvzhdb844vgqjsizbvlmprkzq-ncurses-6.5-dev/include",
+      "-c",
+      "-o",
+      "build/state.o",
+      "src/state.c"
+    ],
+    "directory": "/home/box/code/c/emulator",
+    "file": "/home/box/code/c/emulator/src/state.c",
+    "output": "/home/box/code/c/emulator/build/state.o"
+  }
+]
