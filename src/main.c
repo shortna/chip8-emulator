@@ -111,8 +111,10 @@ int main(int argc, char *argv[]) {
     EXPECT(execute(BSWAP16(*i)) != -1, LOG_ERROR("Invalid instruction %u", *i));
     if (STATE.timers.delay)
       STATE.timers.delay--;
-    if (STATE.timers.sound)
+    if (STATE.timers.sound) {
+      sound_beep();
       STATE.timers.sound--;
+    }
     LOG_STATE();
     usleep(useconds);
   }
